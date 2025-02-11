@@ -56,7 +56,7 @@ dotenv.config({
 
 // ✅ إنشاء التطبيق Express
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 // ✅ إعداد الـ Middleware
 app.use(cors()); // حل مشكلة CORS للسماح بطلبات من الواجهة الأمامية
